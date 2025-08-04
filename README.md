@@ -3,19 +3,19 @@
 This project was developed as part of the **Advanced Parallel Algorithm Design and Profiling** course at the EU University of Applied Sciences.  
 It demonstrates three implementations of statistical profiling on large datasets using different computational paradigms: **Sequential**, **OpenMP**, and **MPI**.
 
-## 🧠 Project Objective
+## Project Objective
 
 To compute statistical metrics (mean, variance, and histogram) on a dataset of one million integers using:
 
-- ✅ **Sequential Programming**
-- ✅ **Shared-memory parallelism (OpenMP)**
-- ✅ **Distributed-memory parallelism (MPI)**
+- **Sequential Programming**
+- **Shared-memory parallelism (OpenMP)**
+- **Distributed-memory parallelism (MPI)**
 
 The aim is to **compare performance, efficiency, and scalability** between these methods using profiling techniques.
 
 ---
 
-## 📊 Features
+## Features
 
 - Generate synthetic dataset of 1,000,000 random integers (0–1000)
 - Compute:
@@ -34,7 +34,7 @@ The aim is to **compare performance, efficiency, and scalability** between these
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Language: **C++**
 - Parallel Frameworks:
@@ -44,7 +44,7 @@ The aim is to **compare performance, efficiency, and scalability** between these
 
 ---
 
-## 🗃️ Folder Structure
+## Folder Structure
 
 ```
 parallel_stats/
@@ -59,18 +59,18 @@ parallel_stats/
 
 ---
 
-## ⚙️ Compilation & Run Instructions
+## Compilation & Run Instructions
 
-### 🔧 Prerequisites
+### Prerequisites
 - Install g++ with OpenMP support
 - Install MPI (e.g., MPICH or OpenMPI)
 
-### 🔨 Build All
+### Build All
 ```bash
 make all
 ```
 
-### ▶️ Run
+### Run
 
 **Generate data:**
 ```bash
@@ -94,7 +94,7 @@ mpirun -np 14 ./stats_mpi
 
 ---
 
-## 📈 Performance Summary
+## Performance Summary
 
 | Implementation | Execution Time | Speedup | 
 |----------------|----------------|---------|
@@ -107,14 +107,14 @@ mpirun -np 14 ./stats_mpi
 
 ---
 
-## 📚 Report
+## Report
 
 For detailed explanation, design decisions, synchronization strategy, profiling analysis, and future improvements, please refer to the accompanying report:  
 📄 `Assignment 3 - Advanced Parallel Algorithm Design and Profiling.pdf`
 
 ---
 
-## 🧪 Future Improvements
+## Future Improvements
 
 - Integrate hybrid MPI + OpenMP model
 - Run on more powerful multi-core/multi-node systems
@@ -123,13 +123,9 @@ For detailed explanation, design decisions, synchronization strategy, profiling 
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Bekir Bozoklar**  
 Course: Multi Core Programming  
 
----
 
-## 📄 License
-
-This project is for academic and educational purposes only. No license is currently applied.
