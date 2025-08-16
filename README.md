@@ -1,6 +1,5 @@
 # Parallel Data Profiling and Statistics
 
-This project was developed as part of the **Advanced Parallel Algorithm Design and Profiling** course at the EU University of Applied Sciences.  
 It demonstrates three implementations of statistical profiling on large datasets using different computational paradigms: **Sequential**, **OpenMP**, and **MPI**.
 
 ## Project Objective
